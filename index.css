@@ -1,0 +1,55 @@
+body {
+    margin: 0px
+}
+
+html {
+    color: white
+}
+
+header {
+    height: 10vh
+}
+
+body {
+    background-color: #003459
+}
+
+article {
+    margin-top: 10vh;
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 67vw;
+    margin-left: 3vw;
+}
+
+
+.parcours {
+    width: 80vw;
+    height: 5vw;
+    display: flex;
+    background-color: #014372;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.parcours img {
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    filter: invert(100%) sepia(0%) saturate(4091%) hue-rotate(7deg) brightness(110%) contrast(107%);
+
+}
+
+.parcours svg {
+    width: 2vw;
+    height: 2vw
+}
