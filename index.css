@@ -16,15 +16,25 @@ header {
     background-color: #00A8E8;
 }
 
-header .div1 {}
+header .div1 {
+    margin-left: 2vw;
+    width: 20vw;
+    font-size: larger;
+}
 
-header .div2 {}
+header .div2 {
+    width: 70vw
+}
 
-header .div3 {}
+header .div3 {
+    width: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 header img {
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
 }
 
 header .instagram {
