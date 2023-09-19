@@ -9,7 +9,26 @@ html {
 }
 
 header {
-    height: 10vh
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #00A8E8;
+}
+
+header .div1 {}
+
+header .div2 {}
+
+header .div3 {}
+
+header img {
+    width: 10%;
+    height: 10%;
+}
+
+header .instagram {
+    filter: invert(100%) sepia(0%) saturate(4091%) hue-rotate(7deg) brightness(110%) contrast(107%);
 }
 
 body {
