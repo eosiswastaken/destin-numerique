@@ -43,14 +43,10 @@ header .div3 {
     justify-content: space-evenly;
 }
 
-header img {
-    width: 4vh;
-    height: 4vh;
-}
-
+header img,
 header svg {
     width: 4vh;
-    height: 4vh
+    height: 4vh;
 }
 
 header .instagram:hover {
@@ -73,6 +69,8 @@ main section:not(a section) {
 
 .div3 a {
     align-self: center;
+    width: 4vh;
+    height: 4vh
 }
 
 .parcours {
@@ -125,5 +123,5 @@ a section svg {
 }
 
 .reponses {
-    margin: 1vh
+    margin: 2vh
 }
