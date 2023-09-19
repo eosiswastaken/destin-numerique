@@ -8,6 +8,16 @@ html {
     font-size: large;
 }
 
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -18,12 +28,13 @@ header {
 
 header .div1 {
     margin-left: 2vw;
-    width: 20vw;
-    font-size: larger;
+    width: 18vw;
+    font-size: 2vw;
 }
 
 header .div2 {
-    width: 70vw
+    width: 73vw;
+    margin-left: 2vw
 }
 
 header .div3 {
@@ -33,12 +44,18 @@ header .div3 {
 }
 
 header img {
-    width: 20%;
-    height: 20%;
+    width: 4vh;
+    height: 4vh;
 }
 
-header .instagram {
-    filter: invert(100%) sepia(0%) saturate(4091%) hue-rotate(7deg) brightness(110%) contrast(107%);
+header svg {
+    width: 4vh;
+    height: 4vh
+}
+
+header .instagram:hover {
+    transition: 0.3s ease;
+    fill: #003459
 }
 
 body {
@@ -54,6 +71,10 @@ main section:not(.parcours) {
     margin-right: 70vw;
 }
 
+.div3 a {
+    align-self: center;
+}
+
 article {
     margin-top: 10vh;
     display: flex;
@@ -61,6 +82,11 @@ article {
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.parcours:hover {
+    transition: 0.3s ease;
+    background-color: #003c66;
 }
 
 p {
@@ -81,7 +107,7 @@ p {
     justify-content: center;
 }
 
-.parcours img {
+.parcours .logos {
     display: flex;
     width: 3vw;
     height: 3vw;
