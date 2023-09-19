@@ -58,7 +58,7 @@ body {
     background-color: #003459
 }
 
-main section:not(a section) {
+main section:not(.categorie) {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -82,7 +82,7 @@ main section:not(a section) {
     margin-bottom: 10vh;
 }
 
-a section:hover {
+.categorie:hover {
     transition: 0.3s ease;
     background-color: #003c66;
 }
@@ -95,7 +95,7 @@ p {
 }
 
 
-a section {
+.categorie {
     width: 80vw;
     height: 5vw;
     display: flex;
@@ -105,7 +105,7 @@ a section {
     justify-content: center;
 }
 
-a section .logos {
+.categorie .logos {
     display: flex;
     width: 3vw;
     height: 3vw;
@@ -113,7 +113,7 @@ a section .logos {
 
 }
 
-a section svg {
+.categorie svg {
     width: 2vw;
     height: 2vw
 }
