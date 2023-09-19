@@ -28,12 +28,12 @@ header {
 
 header .div1 {
     margin-left: 2vw;
-    width: 18vw;
+    width: 25vw;
     font-size: 2vw;
 }
 
 header .div2 {
-    width: 73vw;
+    width: 61vw;
     margin-left: 2vw
 }
 
@@ -62,29 +62,29 @@ body {
     background-color: #003459
 }
 
-main section:not(.parcours) {
+main section:not(a section) {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 100%;
-    margin-right: 70vw;
+    width: 90vw;
+    margin: 3vw 3vw 0 3vw;
 }
 
 .div3 a {
     align-self: center;
 }
 
-article {
-    margin-top: 10vh;
+.parcours {
     display: flex;
-    height: 60vh;
+    height: 80vh;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-bottom: 10vh;
 }
 
-.parcours:hover {
+a section:hover {
     transition: 0.3s ease;
     background-color: #003c66;
 }
@@ -97,7 +97,7 @@ p {
 }
 
 
-.parcours {
+a section {
     width: 80vw;
     height: 5vw;
     display: flex;
@@ -107,7 +107,7 @@ p {
     justify-content: center;
 }
 
-.parcours .logos {
+a section .logos {
     display: flex;
     width: 3vw;
     height: 3vw;
@@ -115,7 +115,15 @@ p {
 
 }
 
-.parcours svg {
+a section svg {
     width: 2vw;
     height: 2vw
+}
+
+.questions {
+    font-size: larger;
+}
+
+.reponses {
+    margin: 1vh
 }
