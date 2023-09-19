@@ -3,7 +3,9 @@ body {
 }
 
 html {
-    color: white
+    color: white;
+    font-family: "Open Sans";
+    font-size: large;
 }
 
 header {
