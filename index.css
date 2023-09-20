@@ -125,3 +125,29 @@ p {
 .reponses {
     margin: 2vh
 }
+
+.arrow--opened {
+    rotate: 90deg;
+    transition-property: rotate;
+    transition-duration: 0.4s;
+}
+
+.arrow--closed {
+    rotate: 0deg;
+    transition-property: rotate;
+    transition-duration: 0.4s;
+
+}
+
+.panel--closed {
+  display: none;
+  max-height: 0;
+  transition: max-height 0.4s;
+}
+
+.panel--opened {
+    display: block;
+    max-height: auto;
+    transition: max-height 0.4s;
+}
+
