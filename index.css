@@ -15,7 +15,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 header {
@@ -30,11 +30,6 @@ header .div1 {
     margin-left: 2vw;
     width: 25vw;
     font-size: 2vw;
-}
-
-header .div2 {
-    width: 61vw;
-    margin-left: 2vw
 }
 
 header .div3 {
@@ -75,7 +70,7 @@ main section:not(.categorie) {
 
 .parcours {
     display: flex;
-    height: 80vh;
+    /* height: 80vh; */
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
@@ -128,8 +123,6 @@ p {
     width: 80vw;
 }
 
-}
-
 .arrow--opened {
     rotate: 90deg;
     transition-property: rotate;
@@ -144,13 +137,31 @@ p {
 }
 
 .panel--closed {
-  display: none;
-  max-height: 0;
-  transition: max-height 0.4s;
+    display: none;
+    max-height: 0;
+    transition: max-height 0.4s;
 }
 
 .panel--opened {
-    display: block;
-    max-height: auto;
+    display: flex;
+    width: 80vw;
     transition: max-height 0.4s;
+    background-color: #003c66;
+    font-size: medium;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    width: auto;
+    padding: 3vh 3vh;
+    margin-left: 0
+}
+
+.button {
+    margin-bottom: 3vh;
+    background-color: #007ea7;
+    border-radius: 20px;
+    padding: 1vh;
 }
