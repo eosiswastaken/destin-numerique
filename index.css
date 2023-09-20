@@ -90,14 +90,14 @@ main section:not(.categorie) {
 p {
     margin-block-start: 0;
     margin-block-end: 0;
-    width: 67vw;
+    width: 68vw;
     margin-left: 3vw;
 }
 
 
 .categorie {
     width: 80vw;
-    height: 5vw;
+    height: 70px;
     display: flex;
     background-color: #014372;
     border-radius: 10px;
@@ -120,8 +120,10 @@ p {
 
 .questions {
     font-size: larger;
+    margin: 0 5vw 0 0
 }
 
 .reponses {
-    margin: 2vh
+    margin: 2vh;
+    width: 80vw
 }
