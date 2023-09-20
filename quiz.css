@@ -1,4 +1,8 @@
-form{
+html {
+    color: white
+}
+
+form {
     width: 700px;
     margin-right: 70px;
     margin-bottom: 70px;
@@ -7,23 +11,24 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-   
+
 }
-h2{
+
+h2 {
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 16px;
-    color: #007ea7;
 
 
 }
-form pre{
+
+form pre {
     font-size: 17px;
-    color: #007ea7;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
- form input[type="text"],[type="password"]{
+form input[type="text"],
+[type="password"] {
     width: 100%;
     margin-bottom: 7px;
     height: 40px;
@@ -32,15 +37,15 @@ form pre{
     border-radius: 16px;
     background-color: rgba(172, 172, 172, 0.098);
 }
- form input[type="submit"]{
+
+form input[type="submit"] {
     cursor: pointer;
     border: none;
     margin-left: 250Px;
     background-color: #007ea7;
-    color: white;
     font-size: 20px;
     padding: 6px 20px;
-    border-radius:14px ;
+    border-radius: 14px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
