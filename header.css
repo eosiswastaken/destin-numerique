@@ -1,0 +1,55 @@
+html {
+    font-family: "Open Sans";
+}
+
+body {
+    margin: 0px
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #00A8E8;
+    color: white
+}
+
+header .div1 {
+    margin-left: 2vw;
+    width: 25vw;
+    font-size: 2vw;
+}
+
+header .div3 {
+    width: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header img,
+header svg {
+    width: 4vh;
+    height: 4vh;
+}
+
+header .instagram:hover {
+    transition: 0.3s ease;
+    fill: #003459
+}
+
+.div3 a {
+    align-self: center;
+    width: 4vh;
+    height: 4vh
+}
